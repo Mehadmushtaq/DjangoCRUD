@@ -7,6 +7,6 @@ class Employees(models.Model):
     address = models.TextField()
     phone = models.IntegerField()
 
-    def __str__(self):
+    def __str__(self):                  # to get the name attribute of the instance.
         return self.name
 
